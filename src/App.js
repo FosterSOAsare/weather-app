@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Dashboard from "./components/Dashboard";
+import Sidebar from "./components/Sidebar";
+import AdvancedInfo from "./components/AdvancedInfo";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<section className=" w-full h-[100vh] bg-[#E6EBF4] mx-auto flex justify-center items-center font-[poppins] ">
+			<section className="container dashboard w-[90%] h-[90%] bg-[white] flex justify-start pt-[30px] ">
+				<Sidebar />
+				<Dashboard />
+				<AdvancedInfo />
+			</section>
+		</section>
+	);
 }
 
 export default App;
