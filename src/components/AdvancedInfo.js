@@ -35,7 +35,6 @@ const WeekElements = ({ img, name, value, date }) => {
 	);
 };
 const AdvancedInfo = () => {
-	const [active, setActive] = useState("now");
 	return (
 		<section className="w-[25%] px-[20px] pt-[10px]">
 			<article className="top w-full h-auto  flex justify-between items-center">
