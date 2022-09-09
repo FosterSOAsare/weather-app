@@ -5,7 +5,7 @@ import Search from "../images/search.png";
 import Notification from "../images/notification.png";
 function TopSection() {
 	return (
-		<article className="top flex justify-between items-start w-full h-[40px]">
+		<article className="top flex justify-between  items-start w-full h-[40px]">
 			<article className="search w-[40%] h-[auto]  flex justify-start items-center ">
 				<button className="icon w-[30px] h-[30px] flex justify-center items-center ">
 					<img src={Search} className="bg-[red] " alt="Search"></img>
@@ -16,7 +16,7 @@ function TopSection() {
 					className=" w-[350px] border-0 focus:outline-0 pl-[5px] h-[35px] text-[12px]"
 				/>
 			</article>
-			<article className="user w-[80px] h-[50px]  flex justify-between items-center ">
+			<article className="user w-[80px] h-[40px] flex justify-between items-center ">
 				<button className="notifications w-[26px] h-[25px]">
 					<img
 						src={Notification}

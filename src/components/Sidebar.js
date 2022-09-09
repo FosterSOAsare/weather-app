@@ -5,7 +5,7 @@ import Logo from "../images/logo.png";
 
 const NavElement = ({ img, name, state }) => {
 	return (
-		<div className="w-full h-[40px] flex justify-start items-center mb-[15px]">
+		<div className="w-full h-[40px] flex justify-start items-center mb-[15px] hover:cursor-pointer">
 			<div className="icon w-[25px] h-[25px]  flex justify-center items-center">
 				<img src={img} className="text-[#1F1E31]  text-[18px]" alt={name}></img>
 			</div>

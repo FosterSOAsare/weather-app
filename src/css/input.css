@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.active {
+		background-color: #233b52;
+		color: white;
+	}
+	.active_child {
+		background-color: white;
+	}
+	.inactive_child {
+		background-color: green;
+	}
+}
